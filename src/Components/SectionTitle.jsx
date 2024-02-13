@@ -1,6 +1,6 @@
 const SectionTitle = ({ heading, subHeading }) => {
   return (
-    <div className="text-center mb-10">
+    <div data-aos="zoom-in" className="text-center mb-10">
       <h2 className="text-center text-3xl md:text-4xl font-bold text-sky-500 mb-3">
         {heading}
       </h2>

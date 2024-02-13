@@ -28,6 +28,7 @@ const Contact = () => {
         <div className="flex flex-col md:flex-row items-start gap-8">
           <div className="w-full">
             <input
+              data-aos="zoom-in-down"
               id="name"
               placeholder="Enter full name"
               {...register("name", { required: true })}
@@ -38,7 +39,7 @@ const Contact = () => {
             )}
           </div>
 
-          <div className="w-full">
+          <div data-aos="zoom-in-down" className="w-full">
             <input
               type="email"
               id="email"
@@ -52,7 +53,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="w-full mt-8">
+        <div data-aos="zoom-in" className="w-full mt-8">
           <input
             id="subject"
             placeholder="Enter phone number"
@@ -64,7 +65,11 @@ const Contact = () => {
           )}
         </div>
 
-        <div className="w-full my-8">
+        <div
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-center"
+          className="w-full my-8"
+        >
           <textarea
             rows={4}
             id="message"

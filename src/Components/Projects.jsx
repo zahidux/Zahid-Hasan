@@ -42,7 +42,10 @@ const Projects = () => {
     >
       <SectionTitle heading={"My Projects"} />
       <Tabs>
-        <TabList className="text-xl text-center text-sky-500 font-medium space-x-2 space-y-2">
+        <TabList
+          data-aos="zoom-in"
+          className="text-xl text-center text-sky-500 font-medium space-x-2 space-y-2"
+        >
           <Tab onClick={() => setCategory("all")}>All Work</Tab>
           <Tab onClick={() => setCategory("react")}>React Template</Tab>
           <Tab onClick={() => setCategory("eCommerce")}>eCommerce Work</Tab>

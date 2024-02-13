@@ -13,12 +13,16 @@ const About = () => {
       <div className="md:flex items-center gap-5 mx-8 md:mx-48">
         <div className="w-full grid justify-center">
           <img
+            data-aos="zoom-in"
             className="w-[300px] md:w-[550px] rounded-xl"
             src={zahida}
             alt="zahid"
           />
         </div>
-        <div className="w-full mt-10 md:mt-0 text-center md:text-left">
+        <div
+          data-aos="fade-left"
+          className="w-full mt-10 md:mt-0 text-center md:text-left"
+        >
           <h4 className="md:text-2xl font-bold text-sky-500">About Me</h4>
           <h2 className="text-3xl md:text-5xl my-3 md:my-5 font-bold">
             Front-end Developer

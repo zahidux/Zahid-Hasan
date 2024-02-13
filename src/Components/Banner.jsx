@@ -8,7 +8,7 @@ const Banner = () => {
       id="/"
       className="md:flex justify-center items-center md:h-[850px] md:px-64 pt-40 pb-28 md:pb-0 md:pt-20 md:mx-32 rounded-b-2xl shadow-xl"
     >
-      <div className="w-full text-center md:text-left">
+      <div data-aos="zoom-in" className="w-full text-center md:text-left">
         <p className="text-xl md:text-3xl font-medium">Hello! I'm</p>
         <h1 className="text-4xl md:text-6xl my-3 md:my-7 font-bold text-slate-900 ">
           Zahid Hasan
@@ -22,7 +22,11 @@ const Banner = () => {
           </button>
         </Link>
       </div>
-      <Link to={"/"} className="w-full grid justify-center mt-20 md:mt-0">
+      <Link
+        data-aos="zoom-in"
+        to={"/"}
+        className="w-full grid justify-center mt-20 md:mt-0"
+      >
         <img
           className="w-[350px] md:w-[500px] rounded-full"
           src={image}

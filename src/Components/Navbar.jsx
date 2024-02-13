@@ -5,7 +5,7 @@ import { HashLink as Link } from "react-router-hash-link";
 const Navbar = () => {
   return (
     <nav className="md:flex items-center justify-around fixed w-full md:px-28  ">
-      <div>
+      <div data-aos="fade-right">
         <Link>
           <img
             className="w-[150px] md:w-[170px] rounded-md mt-5 md:mt-0 ml-5 md:ml-0"
@@ -14,7 +14,10 @@ const Navbar = () => {
           />
         </Link>
       </div>
-      <ul className="md:flex gap-10 my-10 text-2xl font-bold invisible md:visible text-slate-700">
+      <ul
+        data-aos="fade-down"
+        className="md:flex gap-10 my-10 text-2xl font-bold invisible md:visible text-slate-700"
+      >
         <li></li>
         <Link to={"#/"}>Home</Link>
         <li>
@@ -31,6 +34,7 @@ const Navbar = () => {
         </li>
       </ul>
       <Link
+        data-aos="fade-left"
         target="_blank"
         rel="noreferrer"
         to={
