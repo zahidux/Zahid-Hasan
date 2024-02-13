@@ -6,7 +6,10 @@ import { GrInstagram } from "react-icons/gr";
 
 const About = () => {
   return (
-    <section id="about" className="py-20 rounded-2xl md:m-32 shadow-xl">
+    <section
+      id="about"
+      className="py-24 md:py-36 rounded-2xl md:m-32 shadow-xl"
+    >
       <div className="md:flex items-center gap-5 mx-8 md:mx-48">
         <div className="w-full grid justify-center">
           <img

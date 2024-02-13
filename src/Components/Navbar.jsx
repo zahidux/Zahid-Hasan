@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="md:flex items-center justify-around fixed w-full md:px-28  ">
       <div>
-        <Link to={"/"}>
+        <Link>
           <img
             className="w-[150px] md:w-[170px] rounded-md mt-5 md:mt-0 ml-5 md:ml-0"
             src={logo}
@@ -16,7 +16,7 @@ const Navbar = () => {
       </div>
       <ul className="md:flex gap-10 my-10 text-2xl font-bold invisible md:visible text-slate-700">
         <li></li>
-        <Link to={"/"}>Home</Link>
+        <Link to={"#/"}>Home</Link>
         <li>
           <Link to={"#about"}>About </Link>
         </li>

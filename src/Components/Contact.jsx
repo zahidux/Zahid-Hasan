@@ -21,7 +21,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="md:p-12 duration-300 md:mx-32 shadow-xl rounded-2xl"
+      className="pt-16 md:pt-36 duration-300 md:mx-32 shadow-xl rounded-xl"
     >
       <SectionTitle heading={"Get In Touch"} />
       <form onSubmit={handleSubmit(onSubmit)} className=" p-14">

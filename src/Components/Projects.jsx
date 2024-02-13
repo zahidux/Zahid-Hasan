@@ -38,7 +38,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="mb-12 p-6 md:p-12 duration-300 md:mx-32 rounded-2xl shadow-xl"
+      className="mb-12 py-12 md:py-36 px-12 md:px-12 duration-300 md:mx-32 rounded-2xl shadow-xl"
     >
       <SectionTitle heading={"My Projects"} />
       <Tabs>

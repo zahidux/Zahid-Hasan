@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <section
       id="services"
-      className="mb-12 p-6 md:p-12 duration-300 md:mx-32 rounded-2xl shadow-md"
+      className="mb-12 pt-16 md:pt-36 md:p-36 duration-300 md:mx-32 rounded-2xl shadow-md"
     >
       <SectionTitle heading={"Services"} />
       <div className="grid grid-cols-1 lg:grid-cols-3 items-center gap-10 md:gap-10 duration-300">
