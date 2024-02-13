@@ -1,0 +1,88 @@
+[
+  {
+    "name": "Byte Cafe",
+    "title": "Resturent Website React Template",
+    "client": "Themeforest",
+    "date": "01 Sep 2023",
+    "liveLink": "https://digity-by-forid.netlify.app/",
+    "clientCode": null,
+    "serverCodeLink": null,
+    "description": "Digity - Digital Agency React Template - Creative Site Templates Live Preview Digity is a clean and creative Tailwind Css template. All files are perfectly organized, so you can easily customize them. It’s based on the Tailwind CSS grid system. This template is specially designed for Digital Agency, Corporate Agency, Freelancers, Companies portfolios, and much more.",
+    "picture": "https://i.ibb.co/6g5MKwT/digity.png",
+    "screenshots": [
+      "https://i.ibb.co/dB5w1yg/1.png",
+      "https://i.ibb.co/hYd0rc3/2.png",
+      "https://i.ibb.co/R2cbGBm/3.png",
+      "https://i.ibb.co/dphJTdp/4.png"
+    ],
+    "technology": [
+      "React",
+      "Vite",
+      "Tailwind",
+      "React Router",
+      "React hooks",
+      "Swiper JS",
+      "Eslint",
+      "React Icons"
+    ],
+    "category": "react"
+  },
+  {
+    "name": "Easy Shop",
+    "title": "eCommerce Shop React Template",
+    "client": "USA Client",
+    "date": "20 June 2023",
+    "liveLink": "https://eco-learner.web.app/",
+    "clientCode": "https://github.com/foridislam332/Eco_Learner",
+    "serverCodeLink": "https://github.com/foridislam332/-Eco_Learner_server",
+    "description": "Eco Learner is A Summer Camp Nature Exploration Learning School combines the elements of a traditional summer camp with a focus on nature exploration and experiential learning.",
+    "picture": "https://i.ibb.co/3mSD0Wj/eco-learner.png",
+    "screenshots": [
+      "https://i.ibb.co/XXqBCpL/1.png",
+      "https://i.ibb.co/pztqF1M/2.png",
+      "https://i.ibb.co/gFrydDZ/3.png",
+      "https://i.ibb.co/L8cr2pJ/4.png"
+    ],
+    "technology": [
+      "React",
+      "Vite",
+      "Tailwind",
+      "React Router",
+      "MongoDB",
+      "Express",
+      "Node JS",
+      "Cors",
+      "Swiper JS"
+    ],
+    "category": "react"
+  },
+  {
+    "name": "FieldX",
+    "title": "FieldX",
+    "client": "MAAC",
+    "date": "25 Nov 2023",
+    "liveLink": "https://campus-connects.web.app/",
+    "clientCode": "https://github.com/foridislam332/Campus_Connect_Client",
+    "serverCodeLink": "https://github.com/foridislam332/Campus_Connect_Server",
+    "description": "Campus Connect is a college booking platform designed to the process of finding the best college for students. With its comprehensive database, Campus Connect revolutionizes the college search experience.",
+    "picture": "https://i.ibb.co/SnG99HK/campus.png",
+    "screenshots": [
+      "https://i.ibb.co/yQ8sPj7/1.png",
+      "https://i.ibb.co/tmf3qtd/2.png",
+      "https://i.ibb.co/Qj8m6kZ/3.png",
+      "https://i.ibb.co/NN9566B/4.png"
+    ],
+    "technology": [
+      "React",
+      "Vite",
+      "Tailwind",
+      "Firebase",
+      "MongoDB",
+      "Express",
+      "Axios",
+      "Node JS",
+      "Moment JS"
+    ],
+    "category": "react"
+  }
+]

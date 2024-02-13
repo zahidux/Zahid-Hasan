@@ -1,0 +1,4 @@
+<h2 className="text-white text-xl md:text-3xl mt-2 md:mt-3 duration-300">
+  <Typed strings={['Front-end Developer ', 'MERN Stack Developer ', 'React
+  Application ']} typeSpeed={100} backSpeed={50} loop />
+</h2>

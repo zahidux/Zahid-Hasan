@@ -1,0 +1,29 @@
+[
+  {
+    "id": "01",
+    "title": "Front End Development",
+    "description": "Web Design, Landing Page Design, App development, Mobile an Website Design an expert web designer and developer. Contrary to popular belief Lorem Ipsum is not simply random text. It has Design",
+    "basicPrice": "20",
+    "standardPrice": "50",
+    "premiumPrice": "120",
+    "iconImage": "https://i.ibb.co/W0rLCf5/web-design-icon.png"
+  },
+  {
+    "id": "02",
+    "title": "WebSite Development",
+    "description": "Web Design, Landing Page Design, App development, Mobile an Website Design an expert web designer and developer. Contrary to popular belief Lorem Ipsum is not simply random text. It has Design",
+    "basicPrice": "25",
+    "standardPrice": "70",
+    "premiumPrice": "150",
+    "iconImage": "https://i.ibb.co/QjRNKBX/react-native-icon.png"
+  },
+  {
+    "id": "03",
+    "title": "eCommerce Shop",
+    "description": "Web Design, Landing Page Design, App development, Mobile an Website Design an expert web designer and developer. Contrary to popular belief Lorem Ipsum is not simply random text. It has Design",
+    "basicPrice": "15",
+    "standardPrice": "45",
+    "premiumPrice": "90",
+    "iconImage": "https://i.ibb.co/5Fj5qTz/web-development-icon.png"
+  }
+]
