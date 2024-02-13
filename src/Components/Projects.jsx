@@ -5,6 +5,7 @@ import useProjectData from "../hooks/useProjectData";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import ProjectCard from "./ProjectCard";
+import SectionTitle from "./SectionTitle";
 
 const Projects = () => {
   const [projects, setProjects] = useState([]);
@@ -35,12 +36,16 @@ const Projects = () => {
     );
   }
   return (
-    <section className="bg-dark mb-12 p-6 md:p-12 duration-300">
+    <section
+      id="projects"
+      className="mb-12 p-6 md:p-12 duration-300 md:mx-32 rounded-2xl shadow-xl"
+    >
+      <SectionTitle heading={"My Projects"} />
       <Tabs>
-        <TabList className="text-navy text-lg text-center space-x-2 space-y-2">
-          <Tab onClick={() => setCategory("all")}>All Template</Tab>
+        <TabList className="text-xl text-center text-sky-500 font-medium space-x-2 space-y-2">
+          <Tab onClick={() => setCategory("all")}>All Work</Tab>
           <Tab onClick={() => setCategory("react")}>React Template</Tab>
-          <Tab onClick={() => setCategory("html")}>HTML Template</Tab>
+          <Tab onClick={() => setCategory("eCommerce")}>eCommerce Work</Tab>
         </TabList>
 
         <TabPanel>{content}</TabPanel>

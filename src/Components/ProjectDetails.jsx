@@ -29,15 +29,15 @@ const ProjectDetails = () => {
   } = project;
 
   return (
-    <section className="bg-dark mb-12 p-6 md:p-12 duration-300">
+    <section className=" mb-12 p-6 md:p-12 duration-300 mx-32">
       <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8">
         <ImageSlider screenshots={screenshots} />
         <div className="">
-          <h1 className="text-white text-3xl line-clamp-1">
+          <h1 className=" text-3xl line-clamp-1">
             {name} - <span className="text-xl">{title}</span>
           </h1>
 
-          <div className="text-white flex items-center gap-2 -mt-1">
+          <div className="flex items-center gap-2 -mt-1">
             <Link target="_blake" className="text-blue" to={liveLink}>
               Live preview
             </Link>
@@ -51,26 +51,26 @@ const ProjectDetails = () => {
             </Link>
           </div>
 
-          <p className="text-gray line-clamp-2 mt-3">{description}</p>
+          <p className="line-clamp-2 mt-3">{description}</p>
 
           <div className="grid grid-cols-2 mt-4">
-            <p className="text-gray">
-              <span className="text-white">Client: </span>
+            <p className="">
+              <span className="">Client: </span>
               {client}
             </p>
-            <p className="text-gray">
-              <span className="text-white">Date: </span>
+            <p className="">
+              <span className="">Date: </span>
               {date}
             </p>
           </div>
 
-          <p className="text-white mt-2 underline">Technology Used:</p>
+          <p className=" mt-2 underline">Technology Used:</p>
 
           <div className="mt-2 flex flex-wrap gap-2">
             {technology?.map((item, index) => (
               <span
                 key={index}
-                className="text-white bg-blue py-1 px-3 rounded-md shadow-lg shadow-blue/40"
+                className=" bg-blue py-1 px-3 rounded-md shadow-lg shadow-blue/40"
               >
                 {item}
               </span>
@@ -82,7 +82,7 @@ const ProjectDetails = () => {
       <hr className="mt-16" />
 
       <div className="mt-14">
-        <h1 className="text-white text-4xl mb-8">Project Screenshots</h1>
+        <h1 className=" text-4xl mb-8">Project Screenshots</h1>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {screenshots?.map((image, index) => (

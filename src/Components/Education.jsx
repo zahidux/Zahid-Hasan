@@ -1,94 +1,72 @@
+import SectionTitle from "./SectionTitle";
+
 const Education = () => {
   return (
-    <section className="bg-dark mb-12 p-6 md:p-12 duration-300">
-      <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-y-10 md:gap-10 duration-300">
-        <div className="border-r border-red border-dotted md:py-14 px-8 duration-300">
-          <div className="mb-10">
-            <div className="bg-red py-1 relative z-30 before:absolute before:h-4 before:w-4 before:bg-red before:rounded-full before:top-[9px] before:-right-10 after:absolute after:h-[2px] after:w-10 after:bg-red after:rounded-full after:top-4 after:-right-9">
-              <h3 className="text-white text-xl text-center">
-                10 Mar 2023 - Current
-              </h3>
-              <span className="absolute block h-8 w-8 bg-red top-[9px] left-5 rotate-45 -z-[5]"></span>
-            </div>
+    <section className=" mb-12 py-12 md:p-12 duration-300 md:mx-32 rounded-2xl shadow-xl">
+      <SectionTitle heading={"Education"} />
 
-            <div className="bg-[#733cb8] mt-5 p-3 shadow-iconShadow hover:shadow-[#733cb8]/30 duration-300">
-              <div className="text-white">
-                <h2 className="text-xl">Honours - Bss Honour's in Economic</h2>
-                <p className="text-white italic text-sm">
-                  Ins: Narail Govt. Victoriya College
-                </p>
-              </div>
-              <p className="text-gray line-clamp-2 mt-2">
-                Keep eyes on all events and try to join those what related with
-                you It will help you to stay updated and learn many things
+      <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-y-10 md:gap-10 my-20 text-white mx-8">
+        <div className="border-r-2 border-red-600 border-dotted md:py-14 px-8">
+          <div className="mb-10">
+            <div className="bg-sky-600 py-1 relative z-30 before:absolute before:h-4 before:w-4 before:bg-sky-600 before:rounded-full before:top-[9px] before:-right-10 after:absolute after:h-[2px] after:w-10 after:bg-sky-600 after:rounded-full after:top-4 after:-right-9 rounded-xl">
+              <h3 className="text-2xl text-center font-medium">
+                December 2021 - Completed
+              </h3>
+              <span className="absolute block h-8 w-8 bg-sky-600 top-[9px] left-5 rotate-45 -z-[5]"></span>
+            </div>
+            <div className="bg-sky-600 mt-5 p-5 rounded-xl">
+              <h2 className="text-xl font-semibold">
+                Honours - Bsc Honour's in CSE
+              </h2>
+              <p className="italic text-lg font-medium">
+                Model Institute of Science and Technology
               </p>
             </div>
           </div>
-
           <div>
-            <div className="bg-blue py-1 relative z-30 before:absolute before:h-4 before:w-4 before:bg-blue before:rounded-full before:top-[9px] before:-right-10 after:absolute after:h-[2px] after:w-10 after:bg-blue after:rounded-full after:top-4 after:-right-9">
-              <h3 className="text-white text-xl text-center">
-                01 July 2022 - Completed
+            <div className="bg-red-500 py-1 relative z-30 before:absolute before:h-4 before:w-4 before:bg-red-500 before:rounded-full before:top-[9px] before:-right-10 after:absolute after:h-[2px] after:w-10 after:bg-red-500 after:rounded-full after:top-4 after:-right-9 rounded-xl">
+              <h3 className="text-2xl text-center font-medium">
+                April 2016 - Completed
               </h3>
-              <span className="absolute block h-8 w-8 bg-blue top-[9px] left-5 rotate-45 -z-[5]"></span>
+              <span className="absolute block h-8 w-8 bg-red-500 top-[9px] left-5 rotate-45 -z-[5]"></span>
             </div>
-
-            <div className="bg-[#2C73D2] mt-5 p-3 shadow-iconShadow hover:shadow-[#2C73D2]/30 duration-300">
-              <div className="text-white">
-                <h2 className="text-xl">HSC - Higher School Certificate</h2>
-                <p className="text-white italic text-sm">
-                  Ins: Jatir Pita Bangabandgu Govt. College
-                </p>
-              </div>
-              <p className="text-gray line-clamp-2 mt-2">
-                Keep eyes on all events and try to join those what related with
-                you It will help you to stay updated and learn many things
+            <div className="bg-red-500 mt-5 p-5 rounded-xl">
+              <h2 className="text-xl font-semibold">
+                HSC - Higher School Certificate
+              </h2>
+              <p className="italic text-lg font-medium">
+                Konabari Ideal College
               </p>
             </div>
           </div>
         </div>
-
-        <div className="border-l border-red border-dotted py-14 px-8">
+        <div className="border-l-2 border-sky-500 border-dotted md:py-14 px-8">
           <div className="mb-10">
-            <div className="bg-red py-1 relative z-30 before:absolute before:h-4 before:w-4 before:bg-red before:rounded-full before:top-[9px] before:-left-10 after:absolute after:h-[2px] after:w-10 after:bg-red after:rounded-full after:top-4 after:-left-9">
-              <h3 className="text-white text-xl text-center">
-                20 Nov 2021 - Completed
+            <div className="bg-green-600 py-1 relative z-30 before:absolute before:h-4 before:w-4 before:bg-green-600 before:rounded-full before:top-[9px] before:-left-10 after:absolute after:h-[2px] after:w-10 after:bg-green-600 after:rounded-full after:top-4 after:-left-9 rounded-xl">
+              <h3 className="text-2xl text-center font-medium">
+                December 2021 - Completed
               </h3>
-              <span className="absolute block h-8 w-8 bg-red top-[9px] right-5 rotate-45 -z-[5]"></span>
+              <span className="absolute block h-8 w-8 bg-bg-green-500 top-[9px] right-5 rotate-45 -z-[5]"></span>
             </div>
-
-            <div className="bg-[#733cb8] mt-5 p-3 shadow-iconShadow hover:shadow-[#733cb8]/30 duration-300">
-              <div className="text-white">
-                <h2 className="text-xl">MERN Stack Developer</h2>
-                <p className="text-white italic text-sm">
-                  Ins: Programming Hero
-                </p>
-              </div>
-              <p className="text-gray line-clamp-2 mt-2">
-                Keep eyes on all events and try to join those what related with
-                you It will help you to stay updated and learn many things
-              </p>
+            <div className="bg-green-600 mt-5 p-5 rounded-xl">
+              <h2 className="text-xl font-semibold">Front End Developer </h2>
+              <p className="italic text-lg font-medium">Programming Hero </p>
             </div>
           </div>
-
           <div>
-            <div className="bg-[#01c3da] py-1 relative z-30 before:absolute before:h-4 before:w-4 before:bg-[#01c3da] before:rounded-full before:top-[9px] before:-left-10 after:absolute after:h-[2px] after:w-10 after:bg-[#01c3da] after:rounded-full after:top-4 after:-left-9">
-              <h3 className="text-white text-xl text-center">
-                01 June 2020 - Completed
+            <div className="bg-orange-500 py-1 relative z-30 before:absolute before:h-4 before:w-4 before:bg-orange-500 before:rounded-full before:top-[9px] before:-left-10 after:absolute after:h-[2px] after:w-10 after:bg-orange-500 after:rounded-full after:top-4 after:-left-9 rounded-xl">
+              <h3 className="text-2xl text-center font-medium">
+                June 2013 - Completed
               </h3>
-              <span className="absolute block h-8 w-8 bg-[#01c3da] top-[9px] right-5 rotate-45 -z-[5]"></span>
+              <span className="absolute block h-8 w-8 bg-bg-green-500 top-[9px] right-5 rotate-45 -z-[5]"></span>
             </div>
 
-            <div className="bg-[#2C73D2] mt-5 p-3 shadow-iconShadow hover:shadow-[#2C73D2]/30 duration-300">
-              <div className="text-white">
-                <h2 className="text-xl">React JS Developer</h2>
-                <p className="text-white italic text-sm">
-                  Ins: Programming Hero
-                </p>
-              </div>
-              <p className="text-gray line-clamp-2 mt-2">
-                Keep eyes on all events and try to join those what related with
-                you It will help you to stay updated and learn many things
+            <div className="bg-orange-500 mt-5 p-5 rounded-xl">
+              <h2 className="text-xl font-semibold">
+                SSC- Secondary School Certificate
+              </h2>
+              <p className="italic text-lg font-medium">
+                Shinaboho High School
               </p>
             </div>
           </div>

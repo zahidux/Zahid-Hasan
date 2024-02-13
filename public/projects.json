@@ -1,19 +1,19 @@
 [
   {
     "name": "Byte Cafe",
-    "title": "Resturent Website React Template",
+    "title": "Resturent Website",
     "client": "Themeforest",
     "date": "01 Sep 2023",
-    "liveLink": "https://digity-by-forid.netlify.app/",
-    "clientCode": null,
-    "serverCodeLink": null,
-    "description": "Digity - Digital Agency React Template - Creative Site Templates Live Preview Digity is a clean and creative Tailwind Css template. All files are perfectly organized, so you can easily customize them. It’s based on the Tailwind CSS grid system. This template is specially designed for Digital Agency, Corporate Agency, Freelancers, Companies portfolios, and much more.",
-    "picture": "https://i.ibb.co/6g5MKwT/digity.png",
+    "liveLink": "https://byte-cafe-9e40f.web.app/",
+    "clientCode": "https://github.com/zahidux/byte-cafe",
+    "serverCodeLink": "https://github.com/zahidux/byte-cafe-server",
+    "description": "Byte Cafe is a vibrant online platform offering a delectable fusion of flavors and tech-inspired dining experiences. Discover our diverse menu featuring innovative bites, refreshing beverages, and mouthwatering desserts, all crafted with passion and served with a side of cutting-edge ambiance.",
+    "picture": "https://i.ibb.co/2jb4Gyb/byte1.png",
     "screenshots": [
-      "https://i.ibb.co/dB5w1yg/1.png",
-      "https://i.ibb.co/hYd0rc3/2.png",
-      "https://i.ibb.co/R2cbGBm/3.png",
-      "https://i.ibb.co/dphJTdp/4.png"
+      "https://i.ibb.co/BGT3WCV/byte1.png",
+      "https://i.ibb.co/qMgvPxg/byte2.png",
+      "https://i.ibb.co/4Vk1Z2t/byte3.png",
+      "https://i.ibb.co/YQxZWqq/byte4.png"
     ],
     "technology": [
       "React",
@@ -29,19 +29,18 @@
   },
   {
     "name": "Easy Shop",
-    "title": "eCommerce Shop React Template",
+    "title": "eCommerce Shop",
     "client": "USA Client",
     "date": "20 June 2023",
-    "liveLink": "https://eco-learner.web.app/",
-    "clientCode": "https://github.com/foridislam332/Eco_Learner",
-    "serverCodeLink": "https://github.com/foridislam332/-Eco_Learner_server",
-    "description": "Eco Learner is A Summer Camp Nature Exploration Learning School combines the elements of a traditional summer camp with a focus on nature exploration and experiential learning.",
-    "picture": "https://i.ibb.co/3mSD0Wj/eco-learner.png",
+    "liveLink": "https://easy-shop-d7213.web.app/",
+    "clientCode": "https://github.com/zahidux/easy-shop",
+    "serverCodeLink": "https://github.com/zahidux/easy-shop-server",
+    "description": "Easy Shop is your one-stop destination for effortless online shopping. Browse through our extensive collection of products from fashion to electronics, all carefully curated for your convenience.",
+    "picture": "https://i.ibb.co/dpK3szb/easy.png",
     "screenshots": [
-      "https://i.ibb.co/XXqBCpL/1.png",
-      "https://i.ibb.co/pztqF1M/2.png",
-      "https://i.ibb.co/gFrydDZ/3.png",
-      "https://i.ibb.co/L8cr2pJ/4.png"
+      "https://i.ibb.co/jJWQ7ZF/easy.png",
+      "https://i.ibb.co/jyyGV3q/easy1.png",
+      "https://i.ibb.co/3TqRzKh/easy2.png"
     ],
     "technology": [
       "React",
@@ -57,32 +56,21 @@
     "category": "react"
   },
   {
-    "name": "FieldX",
-    "title": "FieldX",
+    "name": "eCommerce Store",
+    "title": "eBay Poshmark Etsy Stores Work",
     "client": "MAAC",
     "date": "25 Nov 2023",
-    "liveLink": "https://campus-connects.web.app/",
-    "clientCode": "https://github.com/foridislam332/Campus_Connect_Client",
-    "serverCodeLink": "https://github.com/foridislam332/Campus_Connect_Server",
-    "description": "Campus Connect is a college booking platform designed to the process of finding the best college for students. With its comprehensive database, Campus Connect revolutionizes the college search experience.",
-    "picture": "https://i.ibb.co/SnG99HK/campus.png",
+    "liveLink": "",
+    "clientCode": "",
+    "serverCodeLink": "",
+    "description": "An e-commerce product listing specialist is responsible for curating and optimizing product listings on an online store. This involves writing compelling product descriptions, selecting high-quality images, and categorizing products effectively to enhance discoverability and drive sales. ",
+    "picture": "https://i.ibb.co/mGW5bgs/etsy-products-listing.png",
     "screenshots": [
-      "https://i.ibb.co/yQ8sPj7/1.png",
-      "https://i.ibb.co/tmf3qtd/2.png",
-      "https://i.ibb.co/Qj8m6kZ/3.png",
-      "https://i.ibb.co/NN9566B/4.png"
+      "https://i.ibb.co/xfrqPXY/Capture.jpg",
+      "https://i.ibb.co/7zxB78P/vendoo.png",
+      "https://i.ibb.co/8gGhtWc/3ebay.png"
     ],
-    "technology": [
-      "React",
-      "Vite",
-      "Tailwind",
-      "Firebase",
-      "MongoDB",
-      "Express",
-      "Axios",
-      "Node JS",
-      "Moment JS"
-    ],
-    "category": "react"
+    "technology": [""],
+    "category": "eCommerce"
   }
 ]
